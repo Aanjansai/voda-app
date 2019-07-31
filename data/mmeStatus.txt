@@ -1,0 +1,7 @@
+190530-12:22:20 100.81.54.193 19.0a MSRBS_NODE_MODEL_18.Q3_367.27828.56_4232 stopfile=/tmp/19329
+===================================================================================
+Proxy  Adm State     Op. State     MO
+===================================================================================
+1117  1 (UNLOCKED)  1 (ENABLED)   ENodeBFunction=1,TermPointToMme=MME_RAJ_1
+1118  1 (UNLOCKED)  1 (ENABLED)   ENodeBFunction=1,TermPointToMme=MME_RAJ_2
+

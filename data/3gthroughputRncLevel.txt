@@ -1,0 +1,33 @@
+190530-13:18:59 10.190.27.133 19.0a RNC_NODE_MODEL_V_7_1704 stopfile=/tmp/17901
+..........................................................
+get /p002600/pm_data/A20190530.0730-0745:1.xml.gz /var/opt/ericsson/amos/moshell_logfiles/fmlvl2/logs_moshell/pmfiles/10.190.27.133/pm_data/A20190530.0730-0745.1.xml.gz .
+.. OK
+
+
+Using formulafile /opt/ericsson/amos/moshell/commonjars/pm/FORMULA_RNC_S_1_0.txt
+Using configfile /opt/ericsson/amos/moshell/commonjars/pm/CONFIG_RNC_S_1_0.txt
+
+gzip -dc /var/opt/ericsson/amos/moshell_logfiles/fmlvl2/logs_moshell/pmfiles/10.190.27.133/pm_data/A20190530.0645-0700.1.xml.gz /var/opt/ericsson/amos/moshell_logfiles/fm
+lvl2/logs_moshell/pmfiles/10.190.27.133/pm_data/A20190530.0700-0715.1.xml.gz /var/opt/ericsson/amos/moshell_logfiles/fmlvl2/logs_moshell/pmfiles/10.190.27.133/pm_data/A20
+190530.0715-0730.1.xml.gz /var/opt/ericsson/amos/moshell_logfiles/fmlvl2/logs_moshell/pmfiles/10.190.27.133/pm_data/A20190530.0730-0745.1.xml.gz | /usr/bin/perl /opt/eric
+sson/amos/moshell/pmExtract -u "ManagedElement" "^(pmNoRoutedIpBytesDl|pmNoRoutedIpBytesUl|pmRopCounter)$" | gzip -f > /var/opt/ericsson/amos/moshell_logfiles/fmlvl2/logs
+_moshell/tempfiles/20190530-125524_17853/pmrbuffer17901.gz
+
+INFO: There are 102 counters that appear several times in the ROP files, duplicated instances have been discarded.
+It is recommended to remove duplicate counter definitions from the PM scanners.
+To print the duplicated counters, run command "pmxs".
+
+
+gzip -dc /var/opt/ericsson/amos/moshell_logfiles/fmlvl2/logs_moshell/tempfiles/20190530-125524_17853/pmrbuffer17901.gz   | /usr/bin/perl /opt/ericsson/amos/moshell/pmXtab
+ -fdef /var/opt/ericsson/amos/moshell_logfiles/fmlvl2/logs_moshell/tempfiles/20190530-125524_17853/FORMULA_RNC_S_1_0.txt.txt.txt -x "^(IuPS_DLUL_kbps|IuPS_DL_kbps|IuPS_UL
+_kbps)$" -i "IuPS_DLUL_kbps|IuPS_DL_kbps|IuPS_UL_kbps" -h -m "ManagedElement=1" -p 5.0 -fmt txt   
+
+75) RNC IuPS throughput in kbps, Hour by Hour
+Report from 2019-05-30 06:45 UTC to 2019-05-30 07:44 UTC (4 ropfiles)
+Node SW: CXP9021776/6_R2KA07 (W16B.10)
+
+Date: 2019-05-30
+Time  Object IuPS_DLUL_kbps IuPS_DL_kbps IuPS_UL_kbps
+06:00               2482643      2230549       252094
+07:00               2492327      2233623       258704
+

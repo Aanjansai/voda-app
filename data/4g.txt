@@ -1,0 +1,17 @@
+190530-12:22:01 100.81.54.193 19.0a MSRBS_NODE_MODEL_18.Q3_367.27828.56_4232 stopfile=/tmp/19329
+===================================================================================
+Proxy  Adm State     Op. State     MO
+===================================================================================
+1095                1 (ENABLED)   ENodeBFunction=1,SectorCarrier=1
+1098                1 (ENABLED)   ENodeBFunction=1,SectorCarrier=2
+1101                1 (ENABLED)   ENodeBFunction=1,SectorCarrier=3
+1104                1 (ENABLED)   ENodeBFunction=1,SectorCarrier=4
+1107                1 (ENABLED)   ENodeBFunction=1,SectorCarrier=5
+1110                1 (ENABLED)   ENodeBFunction=1,SectorCarrier=6
+1335  1 (UNLOCKED)  1 (ENABLED)   NodeSupport=1,SectorEquipmentFunction=S1
+1336  1 (UNLOCKED)  1 (ENABLED)   NodeSupport=1,SectorEquipmentFunction=S2
+1337  1 (UNLOCKED)  1 (ENABLED)   NodeSupport=1,SectorEquipmentFunction=S3
+1338  1 (UNLOCKED)  1 (ENABLED)   NodeSupport=1,SectorEquipmentFunction=S4
+1339  1 (UNLOCKED)  1 (ENABLED)   NodeSupport=1,SectorEquipmentFunction=S5
+1340  1 (UNLOCKED)  1 (ENABLED)   NodeSupport=1,SectorEquipmentFunction=S6
+

@@ -1,0 +1,33 @@
+190530-14:09:58 10.128.191.46 18.0n RBS_NODE_MODEL_U_4_342 stopfile=/tmp/27454
+Please enter Node Password: 
+............
+
+Using formulafile /opt/ericsson/amos/moshell/commonjars/pm/FORMULA_RBS_U_1_0.txt
+Using configfile /opt/ericsson/amos/moshell/commonjars/pm/CONFIG_RBS_U_1_0.txt
+..............Checking available boards on node...
+
+Collecting CPP board data...
+........
+
+Collecting RBS board data...
+
+gzip -dc /var/opt/ericsson/amos/moshell_logfiles/fmlvl3/logs_moshell/pmfiles/10.128.191.46/pm_data/A20190530.0715-0730.1.xml.gz /var/opt/ericsson/amos/moshell_logfiles/fm
+lvl3/logs_moshell/pmfiles/10.128.191.46/pm_data/A20190530.0730-0745.1.xml.gz /var/opt/ericsson/amos/moshell_logfiles/fmlvl3/logs_moshell/pmfiles/10.128.191.46/pm_data/A20
+190530.0745-0800.1.xml.gz /var/opt/ericsson/amos/moshell_logfiles/fmlvl3/logs_moshell/pmfiles/10.128.191.46/pm_data/A20190530.0800-0815.1.xml.gz | /usr/bin/perl /opt/eric
+sson/amos/moshell/pmExtract -u "ManagedElement" "^(WeightedAverage|pmCapacityNodeBDlCe|pmCapacityNodeBUlCe|pmCapacityNodeBUlCeExt)$" | gzip -f > /var/opt/ericsson/amos/mo
+shell_logfiles/fmlvl3/logs_moshell/tempfiles/20190530-140829_27408/pmrbuffer27454.gz
+
+gzip -dc /var/opt/ericsson/amos/moshell_logfiles/fmlvl3/logs_moshell/tempfiles/20190530-140829_27408/pmrbuffer27454.gz   | /usr/bin/perl /opt/ericsson/amos/moshell/pmXtab
+ -fdef /var/opt/ericsson/amos/moshell_logfiles/fmlvl3/logs_moshell/tempfiles/20190530-140829_27408/FORMULA_RBS_U_1_0.txt.txt.txt -cols time -x "^(AvgNbDlCECapacity|AvgNbU
+lCECapacity|AvgNbUlCEeXTCapacity)$" -i "AvgNbDlCECapacity|AvgNbUlCECapacity|AvgNbUlCEeXTCapacity" -m "(NodeBFunction=\w+)" -p 6.1 -fmt txt   
+
+34) NodeBFunction performance, ROP by ROP
+Report from 2019-05-30 07:15 UTC to 2019-05-30 08:14 UTC (4 ropfiles)
+Node SW: CXP9023291/6_R3BA23 (W16B.14)
+
+Date: 2019-05-30
+Object          Counter               07:15  07:30  07:45  08:00
+NodeBFunction=1 AvgNbDlCECapacity      28.4   26.6   22.8   21.3
+NodeBFunction=1 AvgNbUlCECapacity      36.7   29.6   29.3   31.8
+NodeBFunction=1 AvgNbUlCEeXTCapacity      0      0      0      0
+

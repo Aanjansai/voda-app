@@ -1,0 +1,132 @@
+190530-13:19:40 100.81.54.193 19.0a MSRBS_NODE_MODEL_18.Q3_367.27828.56_4232 stopfile=/tmp/25007
+Parsing PM cache: /var/opt/ericsson/amos/jarxml/PMCACHE_MSRBS_NODE_MODEL_18.Q3_367.27828.56_4232.txt.gz ... Done.
+
+........................
+get /rop/A20190530.0615-0630_LMGGN0040.xml.gz /var/opt/ericsson/amos/moshell_logfiles/fmlvl2/logs_moshell/pmfiles/100.81.54.193/rop/A20190530.0615-0630_LMGGN0040.xml.gz .
+.. OK
+get /rop/A20190530.0630-0645_LMGGN0040.xml.gz /var/opt/ericsson/amos/moshell_logfiles/fmlvl2/logs_moshell/pmfiles/100.81.54.193/rop/A20190530.0630-0645_LMGGN0040.xml.gz .
+.. OK
+get /rop/A20190530.0645-0700_LMGGN0040.xml.gz /var/opt/ericsson/amos/moshell_logfiles/fmlvl2/logs_moshell/pmfiles/100.81.54.193/rop/A20190530.0645-0700_LMGGN0040.xml.gz .
+.. OK
+get /rop/A20190530.0700-0715_LMGGN0040.xml.gz /var/opt/ericsson/amos/moshell_logfiles/fmlvl2/logs_moshell/pmfiles/100.81.54.193/rop/A20190530.0700-0715_LMGGN0040.xml.gz .
+.. OK
+get /rop/A20190530.0715-0730_LMGGN0040.xml.gz /var/opt/ericsson/amos/moshell_logfiles/fmlvl2/logs_moshell/pmfiles/100.81.54.193/rop/A20190530.0715-0730_LMGGN0040.xml.gz .
+.. OK
+get /rop/A20190530.0730-0745_LMGGN0040.xml.gz /var/opt/ericsson/amos/moshell_logfiles/fmlvl2/logs_moshell/pmfiles/100.81.54.193/rop/A20190530.0730-0745_LMGGN0040.xml.gz .
+.. OK
+
+Using formulafile /opt/ericsson/amos/moshell/commonjars/pm/FORMULA_MSRBS_0.txt
+Using configfile /opt/ericsson/amos/moshell/commonjars/pm/CONFIG_MSRBS_0.txt
+
+gzip -dc /var/opt/ericsson/amos/moshell_logfiles/fmlvl2/logs_moshell/pmfiles/100.81.54.193/rop/A20190530.0645-0700_LMGGN0040.xml.gz /var/opt/ericsson/amos/moshell_logfile
+s/fmlvl2/logs_moshell/pmfiles/100.81.54.193/rop/A20190530.0700-0715_LMGGN0040.xml.gz /var/opt/ericsson/amos/moshell_logfiles/fmlvl2/logs_moshell/pmfiles/100.81.54.193/rop
+/A20190530.0715-0730_LMGGN0040.xml.gz /var/opt/ericsson/amos/moshell_logfiles/fmlvl2/logs_moshell/pmfiles/100.81.54.193/rop/A20190530.0730-0745_LMGGN0040.xml.gz | LANG=C 
+LC_ALL=C /opt/ericsson/amos/moshell/gawk -vusergawk="LANG=C LC_ALL=C /opt/ericsson/amos/moshell/gawk" -f /opt/ericsson/amos/moshell/commonjars/pmExtract.awk -u "ManagedEl
+ement" "^(WeightedAverage|log10|pmActiveDrbDlSum|pmActiveDrbUlSum|pmActiveUeDlSamp|pmActiveUeDlSum|pmActiveUeUlSamp|pmActiveUeUlSum|pmAnrNeighbrelAdd|pmAnrNeighbrelRem|pm
+DlAssigsTrans|pmDlAssigsWithDetectedHarqAck|pmErabEstabAttAdded|pmErabEstabAttAddedHoOngoing|pmErabEstabAttInit|pmErabEstabSuccAdded|pmErabEstabSuccInit|pmErabRelAbnormal
+Enb|pmErabRelAbnormalEnbAct|pmErabRelAbnormalMmeAct|pmErabRelMme|pmErabRelMmeAct|pmErabRelNormalEnb|pmErabRelNormalEnbAct|pmHoExeAtt|pmHoExeAttLteInterF|pmHoExeAttLteIntr
+aF|pmHoExeAttNonMob|pmHoExeSucc|pmHoExeSuccLteInterF|pmHoExeSuccLteIntraF|pmHoExeSuccNonMob|pmHoPrepAtt|pmHoPrepAtt1xRttSrvcc|pmHoPrepAttLteInterF|pmHoPrepAttLteIntraF|pm
+HoPrepAttNonMob|pmHoPrepSucc|pmHoPrepSucc1xRttSrvcc|pmHoPrepSuccLteInterF|pmHoPrepSuccLteIntraF|pmHoPrepSuccNonMob|pmLicConnectedUsersActual|pmLicConnectedUsersDistr|pmLi
+cConnectedUsersLicense|pmLicConnectedUsersMax|pmMacDelayTimeDl|pmMacHarqDlAck16qam|pmMacHarqDlAck256qam|pmMacHarqDlAck64qam|pmMacHarqDlAckQpsk|pmMacHarqDlDtx16qam|pmMacHa
+rqDlDtx256qam|pmMacHarqDlDtx64qam|pmMacHarqDlDtxQpsk|pmMacHarqDlNack16qam|pmMacHarqDlNack256qam|pmMacHarqDlNack64qam|pmMacHarqDlNackQpsk|pmMacHarqUlDtx16qam|pmMacHarqUlDt
+x64Qam|pmMacHarqUlDtxQpsk|pmMacHarqUlFail16qam|pmMacHarqUlFail64Qam|pmMacHarqUlFailQpsk|pmMacHarqUlSucc16qam|pmMacHarqUlSucc64Qam|pmMacHarqUlSuccQpsk|pmPagDiscarded|pmPag
+Received|pmPdcchCceUtil|pmPdcpLatPktTransDl|pmPdcpLatTimeDl|pmPdcpPktDiscDlHo|pmPdcpPktDiscDlNoUeCtxt|pmPdcpPktDiscDlPelr|pmPdcpPktDiscDlPelrUu|pmPdcpPktFwdDl|pmPdcpPktLo
+stUl|pmPdcpPktReceivedDl|pmPdcpPktReceivedUl|pmPdcpVolDlDrb|pmPdcpVolDlDrbLastTTI|pmPucchFailSr|pmRaAttCbra|pmRaSuccCbra|pmRadioHomUeRepCqiDistr|pmRadioRecInterferencePwr
+|pmRadioRecInterferencePwrPucch|pmRadioThpVolDl|pmRadioThpVolUl|pmRadioTxRankDistr|pmRadioUeRepCqiDistr|pmRadioUeRepRankDistr|pmRlcArqDlAck|pmRlcArqDlNack|pmRlcArqUlAck|p
+mRlcArqUlNack|pmRlcDelayPktTransDl|pmRlcDelayTimeDl|pmRopCounter|pmRrcConnEstabAtt|pmRrcConnEstabAttReatt|pmRrcConnEstabFailMmeOvlMod|pmRrcConnEstabFailMmeOvlMos|pmRrcCon
+nEstabSucc|pmRrcConnLevSamp|pmRrcConnLevSum|pmRrcConnMax|pmRrcSecFailIntegrity|pmRrcSecFailUnexpectedMsg|pmS1SigConnEstabAtt|pmS1SigConnEstabFailMmeOvlMos|pmS1SigConnEsta
+bSucc|pmSchedActivityCellDl|pmSchedActivityCellUl|pmSessionTimeUe|pmSinrPucchDistr|pmSinrPuschDistr|pmUeCtxtEstabAtt|pmUeCtxtEstabSucc|pmUeCtxtRelSCCdma|pmUeCtxtRelSCEUtr
+a|pmUeCtxtRelSCGsm|pmUeCtxtRelSCTdScdma|pmUeCtxtRelSCWcdma|pmUeMeasRsrpServIntraFreq1|pmUeThpTimeDl|pmUeThpTimeUl|pmUeThpVolUl|pmUlGrantsTrans|pmUlGrantsTransNoAck|pmUlGr
+antsWithDetectedPusch|pmUlPathlossDistr|pmVoipQualityRbUlNok|pmVoipQualityRbUlOk)$" | gzip -f > /var/opt/ericsson/amos/moshell_logfiles/fmlvl2/logs_moshell/tempfiles/2019
+0530-131908_24962/pmrbuffer25007.gz
+
+gzip -dc /var/opt/ericsson/amos/moshell_logfiles/fmlvl2/logs_moshell/tempfiles/20190530-131908_24962/pmrbuffer25007.gz   | grep -v NbIotCell= | sort | uniq | /usr/bin/per
+l /opt/ericsson/amos/moshell/pmXtab -fdef /var/opt/ericsson/amos/moshell_logfiles/fmlvl2/logs_moshell/tempfiles/20190530-131908_24962/FORMULA_MSRBS_0.txt.txt.txt -cols ti
+me -x "^(Acc_AddedERabEstabSuccRate|Acc_CBRA_RandomAccessSuccessRate|Acc_InitialERabEstabSuccRate|Acc_InitialErabSetupSuccRate|Acc_InitialUEContextEstabSuccRate|Acc_Pagin
+gDiscardRate|Acc_RrcConnSetupSuccRate|Acc_S1SigEstabSuccRate|Int_ActiveDRBsDl|Int_ActiveDRBsUl|Int_ActiveUEsDl|Int_ActiveUEsUl|Int_AverageDlMacDelay|Int_AverageDlRlcDelay
+|Int_DlLatency|Int_DlMacThroughput_kbps|Int_DlPacketErrorLoss|Int_DlRadioMeasTxRankDistr|Int_DlRadioMeasUeReportedTxRankDistr|Int_DlThroughput_kbps|Int_MacHarqDlBler|Int_
+MacHarqDlDtxRate|Int_MacHarqUlBler|Int_MacHarqUlDtxRate|Int_PdcchErrorRate|Int_RadioRecInterferencePucchPwr|Int_RadioRecInterferencePwr|Int_RadioUeRepAvgCqi|Int_RadioUeRe
+pAvgCqiHom|Int_RlcArqDlSuccRate|Int_RlcArqUlSuccRate|Int_SinrPucchDistr|Int_SinrPuschDistr|Int_UlMacThroughput_kbps|Int_UlPacketLoss|Int_UlThroughput_kbps|Int_VoIpCellQua
+lityRate|Mob_AnrNeighbrelAdd|Mob_AnrNeighbrelRemove|Mob_HoExecSuccRate|Mob_HoPrepSuccRate|Mob_MobilitySuccRate|Mob_SessionContinuityRel|Oth_PathLoss|Oth_RrcSecFailIntegri
+ty|Oth_RrcSecFailUnexpectedMsg|Oth_RsrpIntraFreq|Res_AverageLicConnectedUsers|Res_AvgNrOfRrcConnectedUsers|Res_LicConnectedUsersCapacityRatio|Res_LicConnectedUsersDistr|R
+es_PDCCH_CCE_Congestion_Perc_Over_80|Res_PeakNrOfRrcConnectedUsers|Res_SrCongestion|Ret_ERabRelAbnormalENB|Ret_ERabRelMME|Ret_ERabRetainabilityRate|Ret_ErabRelAbnormal|Re
+t_MinPerDrop)$" -i "Acc_AddedERabEstabSuccRate|Acc_CBRA_RandomAccessSuccessRate|Acc_InitialERabEstabSuccRate|Acc_InitialErabSetupSuccRate|Acc_InitialUEContextEstabSuccRat
+e|Acc_PagingDiscardRate|Acc_RrcConnSetupSuccRate|Acc_S1SigEstabSuccRate|Int_ActiveDRBsDl|Int_ActiveDRBsUl|Int_ActiveUEsDl|Int_ActiveUEsUl|Int_AverageDlMacDelay|Int_Averag
+eDlRlcDelay|Int_DlLatency|Int_DlMacThroughput_kbps|Int_DlPacketErrorLoss|Int_DlRadioMeasTxRankDistr|Int_DlRadioMeasUeReportedTxRankDistr|Int_DlThroughput_kbps|Int_MacHarq
+DlBler|Int_MacHarqDlDtxRate|Int_MacHarqUlBler|Int_MacHarqUlDtxRate|Int_PdcchErrorRate|Int_RadioRecInterferencePucchPwr|Int_RadioRecInterferencePwr|Int_RadioUeRepAvgCqi|In
+t_RadioUeRepAvgCqiHom|Int_RlcArqDlSuccRate|Int_RlcArqUlSuccRate|Int_SinrPucchDistr|Int_SinrPuschDistr|Int_UlMacThroughput_kbps|Int_UlPacketLoss|Int_UlThroughput_kbps|Int_
+VoIpCellQualityRate|Mob_AnrNeighbrelAdd|Mob_AnrNeighbrelRemove|Mob_HoExecSuccRate|Mob_HoPrepSuccRate|Mob_MobilitySuccRate|Mob_SessionContinuityRel|Oth_PathLoss|Oth_RrcSec
+FailIntegrity|Oth_RrcSecFailUnexpectedMsg|Oth_RsrpIntraFreq|Res_AverageLicConnectedUsers|Res_AvgNrOfRrcConnectedUsers|Res_LicConnectedUsersCapacityRatio|Res_LicConnectedU
+sersDistr|Res_PDCCH_CCE_Congestion_Perc_Over_80|Res_PeakNrOfRrcConnectedUsers|Res_SrCongestion|Ret_ERabRelAbnormalENB|Ret_ERabRelMME|Ret_ERabRetainabilityRate|Ret_ErabRel
+Abnormal|Ret_MinPerDrop" -m "ManagedElement=[^,]+" -p 6.1 -fmt txt   
+
+203) LTE Node Traffic Performance, ROP by ROP
+Report from 2019-05-30 06:45 UTC to 2019-05-30 07:44 UTC (4 ropfiles)
+Node SW: CXP9024418/6_R48H23 (18Q3.5)
+Error evaluating formula Oth_RsrpIntraFreq at /opt/ericsson/amos/moshell/pmXtab line 427, <> line 17932.
+Error evaluating formula Oth_PathLossNbDistr at /opt/ericsson/amos/moshell/pmXtab line 427, <> line 17932.
+
+Date: 2019-05-30
+Object Counter                                06:45  07:00  07:15  07:30
+       Acc_AddedERabEstabSuccRate               100    100    100    100
+       Acc_CBRA_RandomAccessSuccessRate        39.4   54.7   58.8   48.6
+       Acc_InitialERabEstabSuccRate            99.5   99.7   99.5   99.6
+       Acc_InitialErabSetupSuccRate            99.7   99.9   99.7   99.8
+       Acc_InitialUEContextEstabSuccRate       99.7   99.9   99.7   99.8
+       Acc_PagingDiscardRate                      0      0      0      0
+       Acc_RrcConnSetupSuccRate                99.9  100.0   99.9  100.0
+       Acc_S1SigEstabSuccRate                  99.9   99.9   99.8   99.9
+       Int_ActiveDRBsDl                         4.9    4.7    5.5    4.5
+       Int_ActiveDRBsUl                         3.1    2.9    3.0    3.2
+       Int_ActiveUEsDl                          N/A    N/A    N/A    N/A
+       Int_ActiveUEsUl                          N/A    N/A    N/A    N/A
+       Int_AverageDlMacDelay                    3.2    3.1    3.1    3.1
+       Int_AverageDlRlcDelay                  117.1  123.5  142.3  134.4
+       Int_DlLatency                           11.2   13.7   13.5   14.3
+       Int_DlMacThroughput_kbps              7896.8 8232.0 7992.1 7880.3
+       Int_DlPacketErrorLoss                    0.0    0.0    0.1    0.0
+       Int_DlRadioMeasTxRankDistr            0,0,0,2490988,473521,0,0,0,0,0,0,0,0,0,0,0 0,0,0,2640101,446306,0,0,0,0,0,0,0,0,0,0,0 0,0,0,3023979,546596,0,0,0,0,0,0,0,0,0,
+0,0 0,0,0,3140085,856246,0,0,0,0,0,0,0,0,0,0,0
+       Int_DlRadioMeasUeReportedTxRankDistr  655573,181619,0,0 669753,167822,0,0 843344,201814,0,0 830720,269931,0,0
+       Int_DlThroughput_kbps                 1627.6 1867.3 1507.2 1872.5
+       Int_MacHarqDlBler                        8.9    9.1    9.2    9.4
+       Int_MacHarqDlDtxRate                     4.0    3.7    3.4    3.0
+       Int_MacHarqUlBler                       15.0   13.6   12.4   12.0
+       Int_MacHarqUlDtxRate                    11.8   10.2    9.5    9.0
+       Int_PdcchErrorRate                       7.0    6.1    5.3    5.0
+       Int_RadioRecInterferencePucchPwr      -113.6 -113.2 -112.8 -113.1
+       Int_RadioRecInterferencePwr           -112.9 -112.9 -112.8 -113.2
+       Int_RadioUeRepAvgCqi                     8.2    7.9    8.0    8.3
+       Int_RadioUeRepAvgCqiHom                  7.8    8.5    8.7    9.6
+       Int_RlcArqDlSuccRate                    99.8   99.8   99.9   99.9
+       Int_RlcArqUlSuccRate                    95.2   97.9   97.6   98.1
+       Int_SinrPucchDistr                       0.8    0.7    0.6    1.0
+       Int_SinrPuschDistr                       6.2    6.2    8.0    8.2
+       Int_UlMacThroughput_kbps              1529.3 1361.1 2140.0 2044.5
+       Int_UlPacketLoss                         0.1    0.0    0.1    0.1
+       Int_UlThroughput_kbps                  294.2  221.0  917.5  465.9
+       Int_VoIpCellQualityRate                   80   95.5     96    100
+       Mob_AnrNeighbrelAdd                        2      2      8      2
+       Mob_AnrNeighbrelRemove                     0      0      0      0
+       Mob_HoExecSuccRate                      98.6   98.8   98.5   98.1
+       Mob_HoPrepSuccRate                      99.9    100    100    100
+       Mob_MobilitySuccRate                    98.5   98.8   98.5   98.1
+       Mob_SessionContinuityRel                  12      9      6     14
+       Oth_PathLoss                           122.2  122.4  120.2  120.0
+       Oth_RrcSecFailIntegrity                    0      0      0      0
+       Oth_RrcSecFailUnexpectedMsg               25     19     22     30
+       Oth_RsrpIntraFreq                        N/A    N/A    N/A    N/A
+       Res_AverageLicConnectedUsers               5      5      5      5
+       Res_AvgNrOfRrcConnectedUsers            13.2   12.4   12.6   14.9
+       Res_LicConnectedUsersCapacityRatio       0.0    0.0    0.0    0.0
+       Res_LicConnectedUsersDistr            900,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 900,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 900,0,0,0,0,0,0,0,0,0,0,0
+,0,0,0,0,0,0,0,0,0,0,0,0 900,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+       Res_PDCCH_CCE_Congestion_Perc_Over_80    0.0    0.0    0.0    0.1
+       Res_PeakNrOfRrcConnectedUsers            130    131    213    136
+       Res_SrCongestion                           8     18     11      2
+       Ret_ERabRelAbnormalENB                   0.0    0.0    0.0    0.0
+       Ret_ERabRelMME                           0.0    0.0    0.0    0.0
+       Ret_ERabRetainabilityRate                1.2    0.9    2.5    0.9
+       Ret_ErabRelAbnormal                      0.0    0.0    0.0    0.0
+       Ret_MinPerDrop                        13584.2 15938.0 12018.1 14999.4
+

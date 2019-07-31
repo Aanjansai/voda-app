@@ -1,0 +1,7 @@
+190530-12:05:54 10.138.167.132 18.0n RNC_NODE_MODEL_V_11_593 stopfile=/tmp/28899
+===================================================================================
+Proxy  Adm State     Op. State     MO
+===================================================================================
+13242  1 (UNLOCKED)  1 (ENABLED)   RncFunction=1,IubLink=Iub_2945
+13244                1 (ENABLED)   RncFunction=1,IubLink=Iub_2945,NodeSynch=1
+

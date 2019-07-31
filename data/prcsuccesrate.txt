@@ -1,0 +1,123 @@
+190530-13:21:04 10.190.27.133 19.0a RNC_NODE_MODEL_V_7_1704 stopfile=/tmp/17901
+..........................................................
+
+
+Using formulafile /opt/ericsson/amos/moshell/commonjars/pm/FORMULA_RNC_S_1_0.txt
+Using configfile /opt/ericsson/amos/moshell/commonjars/pm/CONFIG_RNC_S_1_0.txt
+
+gzip -dc /var/opt/ericsson/amos/moshell_logfiles/fmlvl2/logs_moshell/pmfiles/10.190.27.133/pm_data/A20190530.0645-0700.1.xml.gz /var/opt/ericsson/amos/moshell_logfiles/fm
+lvl2/logs_moshell/pmfiles/10.190.27.133/pm_data/A20190530.0700-0715.1.xml.gz /var/opt/ericsson/amos/moshell_logfiles/fmlvl2/logs_moshell/pmfiles/10.190.27.133/pm_data/A20
+190530.0715-0730.1.xml.gz /var/opt/ericsson/amos/moshell_logfiles/fmlvl2/logs_moshell/pmfiles/10.190.27.133/pm_data/A20190530.0730-0745.1.xml.gz | /usr/bin/perl /opt/eric
+sson/amos/moshell/pmExtract -u "ManagedElement" "^(pmAttLbhoSpeech|pmChSwitchAttemptDchUra|pmChSwitchAttemptFachUra|pmChSwitchAttemptHsUra|pmChSwitchAttemptUraFach|pmChSw
+itchFailUraFachAdm|pmChSwitchSuccDchUra|pmChSwitchSuccFachUra|pmChSwitchSuccHsUra|pmChSwitchSuccUraCellDch|pmChSwitchSuccUraCellDchCsInit|pmChSwitchSuccUraFach|pmNoAttOut
+IratHoSpeech|pmNoAttOutSbHoSpeech|pmNoCellFachDisconnectAbnorm|pmNoCellFachDisconnectNormal|pmNoCellUpdateAttMultiCs|pmNoCellUpdateSuccMultiCs|pmNoInCsIratHoAtt|pmNoInCsI
+ratHoSuccess|pmNoInIratHoAttSpeech|pmNoInIratHoSuccSpeech|pmNoIuSigEstablishAttemptCs|pmNoIuSigEstablishAttemptPs|pmNoIuSigEstablishSuccessCs|pmNoIuSigEstablishSuccessPs|
+pmNoLoadSharingRrcConn|pmNoLoadSharingRrcConnCs|pmNoLoadSharingRrcConnCsfbInd|pmNoLoadSharingRrcConnPs|pmNoNormalNasSignRelCsfbInd|pmNoNormalNasSignReleaseCs|pmNoNormalNa
+sSignReleasePs|pmNoNormalRabReleaseCs64|pmNoNormalRabReleaseCsStream|pmNoNormalRabReleasePacket|pmNoNormalRabReleasePacketUra|pmNoNormalRabReleaseSpeech|pmNoNormalRbRelea
+seHs|pmNoOutIratCcAtt|pmNoOutIratCcSuccess|pmNoRabEstAttCsfbDetect|pmNoRabEstAttCsfbInd|pmNoRabEstAttMultiPsMultiRab|pmNoRabEstAttPsIntCellDch|pmNoRabEstAttPsIntFach|pmNo
+RabEstAttSinglePsMultiRab|pmNoRabEstAttemptMultiSpeech|pmNoRabEstAttemptMultiSpeechUra|pmNoRabEstAttemptPsIntNonHs|pmNoRabEstSuccCsfbDetect|pmNoRabEstSuccCsfbInd|pmNoRabE
+stSuccMultiPsMultiRab|pmNoRabEstSuccPsHoCsfb|pmNoRabEstSuccPsIntCellDch|pmNoRabEstSuccPsIntFach|pmNoRabEstSuccSinglePsMultiRab|pmNoRabEstSuccessMultiSpeech|pmNoRabEstSucc
+essMultiSpeechUra|pmNoRabEstSuccessPsIntNonHs|pmNoRabEstablishAttemptCs57|pmNoRabEstablishAttemptCs64|pmNoRabEstablishAttemptPacketInteractive|pmNoRabEstablishAttemptPack
+etInteractiveEul|pmNoRabEstablishAttemptPacketInteractiveHs|pmNoRabEstablishAttemptSpeech|pmNoRabEstablishSuccessCs57|pmNoRabEstablishSuccessCs64|pmNoRabEstablishSuccessP
+acketInteractive|pmNoRabEstablishSuccessPacketInteractiveEul|pmNoRabEstablishSuccessPacketInteractiveHs|pmNoRabEstablishSuccessSpeech|pmNoRejRrcConnSpFlowCtrl|pmNoSuccRbR
+econfOrigPsIntDch|pmNoSuccRbReconfPsIntDch|pmNoSuccessOutIratHoSpeech|pmNoSuccessOutSbHoSpeech|pmNoSystemNasSignRelCsfbInd|pmNoSystemNasSignReleaseCs|pmNoSystemNasSignRel
+easePs|pmNoSystemRabReleaseCs64|pmNoSystemRabReleaseCsStream|pmNoSystemRabReleasePacket|pmNoSystemRabReleasePacketUra|pmNoSystemRabReleaseSpeech|pmNoSystemRabReleaseSpeec
+hCnInit|pmNoSystemRbReleaseEul|pmNoSystemRbReleaseHs|pmNoTimesCellFailAddToActSet|pmNoTimesRlAddToActSet|pmNormalRelMultiHsConnToSpeech|pmNormalReleaseHsConn|pmOutPsHoEut
+raAtt|pmOutPsHoEutraSucc|pmPsIntHsToFachSucc|pmReconfSuccOrigHsConn|pmRopCounter|pmSamplesBestDchPsIntRabEstablish|pmSamplesBestPsHsAdchRabEstablish|pmSamplesEulRlcTotPac
+ketThp|pmSamplesFachPsIntRabEstablish|pmSamplesHsDlRlcTotPacketThp|pmSentPacketData1|pmSentPacketData2|pmSentPacketData3|pmSentPacketData4|pmSentPacketDataHs1|pmSentPacke
+tDataHs2|pmSentPacketDataHs3|pmSentPacketDataHs4|pmSentPacketDataInclRetrans1|pmSentPacketDataInclRetrans2|pmSentPacketDataInclRetrans3|pmSentPacketDataInclRetrans4|pmSen
+tPacketDataInclRetransHs1|pmSentPacketDataInclRetransHs2|pmSentPacketDataInclRetransHs3|pmSentPacketDataInclRetransHs4|pmSuccLbhoSpeech|pmSumBestAmr12200RabEstablish|pmSu
+mBestAmr4750RabEstablish|pmSumBestAmr5900RabEstablish|pmSumBestAmr7950RabEstablish|pmSumBestAmrNbMmRabEstablish|pmSumBestAmrWbRabEstablish|pmSumBestCs12Establish|pmSumBes
+tDchPsIntRabEstablish|pmSumBestPsEulRabEstablish|pmSumBestPsHsAdchRabEstablish|pmSumEulRlcTotPacketThp|pmSumFachPsIntRabEstablish|pmSumHsDlRlcTotPacketThp|pmSystemRelMult
+iHsConnToSpeech|pmSystemRelMultiHsConnToSpeechCnInit|pmSystemReleaseHsConn|pmSystemReleaseHsConnCnInit|pmTotNoRrcConnReqCsfbInd|pmTotNoRrcConnReqCsfbIndSucc|pmTotNoRrcCon
+nectReq|pmTotNoRrcConnectReqCs|pmTotNoRrcConnectReqCsSucc|pmTotNoRrcConnectReqPs|pmTotNoRrcConnectReqPsSucc|pmTotNoRrcConnectReqSuccess|pmTotalPacketDurationHs3|pmTotalPa
+cketDurationHs4|pmUpSwitchSessAttSp0CellDch|pmUpSwitchSessSuccSp0CellDch|pmUpswitchFachHsSuccess)$" | gzip -f > /var/opt/ericsson/amos/moshell_logfiles/fmlvl2/logs_moshel
+l/tempfiles/20190530-125524_17853/pmrbuffer17901.gz
+
+INFO: The ROP files contain  suspected faulty counter values.
+They have been discarded but can be kept with pmr/pmx option "k" (pmrk/pmxk) or highlighted with pmx option "s" (pmxs)
+
+INFO: The ROP files contain 13 negative counter values.
+To print the negative counters, run command "pmxs".
+
+
+gzip -dc /var/opt/ericsson/amos/moshell_logfiles/fmlvl2/logs_moshell/tempfiles/20190530-125524_17853/pmrbuffer17901.gz   | grep -v IurLink= | /usr/bin/perl /opt/ericsson/
+amos/moshell/pmXtab -fdef /var/opt/ericsson/amos/moshell_logfiles/fmlvl2/logs_moshell/tempfiles/20190530-125524_17853/FORMULA_RNC_S_1_0.txt.txt.txt -cols time -x "^(AvgSp
+eechErlang|CS57Drop|CS57RabSuc|CS64Access|CS64CCSR|CS64Drop|CS64NoRabEstAtt|CSIuSigSuc|CellFACHDrop|CsIRATG2UHOSucc|DCHMinperDrop|EULMinperDrop|EULRabSuc|EUL_NumRabEstAtt
+|FACHMinperDrop|HSMinperDrop|HsAccess|HsAvgNoUsers|HsDrop|HsRetransmissionRate|HsTotNoUsers|HsTputAvg|HsTputGt100KbAvg|NoAbnormalHsRel|NoHsRel|NoRrcConnReq|NoRrcConnSuc|P
+SAccFailRate|PSAccess|PSCCSR|PSDCHRetransRate|PSDrop|PSEulTputTot|PSHsTputTot|PSIuSigSuc|PSNoRabEstAtt|PSRabSucc|PSRrcSucRate|PacketintHs_R|Packetint_A|Pint_M_IRATHO_LTE|
+PsAvgNoUsers|PsDCHFACHDropRate|PsDCHFACHRabSucc|PsIRATU2GCCSucc|RrcSuc|SHOSuccess|Sp_A_Csfb|Sp_M_incIRATHO_S_CR|SpchAccFailRate|SpchAccess|SpchCCSR|SpchDrop|SpchIRATU2GHO
+Succ|SpchNoRabEstAtt|SpchRabSuc|SpchRrcSucRate|Speech_A|Speech_M_CSFB_AR|Speech_R)$" -i "AvgSpeechErlang|CS57Drop|CS57RabSuc|CS64Access|CS64CCSR|CS64Drop|CS64NoRabEstAtt|
+CSIuSigSuc|CellFACHDrop|CsIRATG2UHOSucc|DCHMinperDrop|EULMinperDrop|EULRabSuc|EUL_NumRabEstAtt|FACHMinperDrop|HSMinperDrop|HsAccess|HsAvgNoUsers|HsDrop|HsRetransmissionRa
+te|HsTotNoUsers|HsTputAvg|HsTputGt100KbAvg|NoAbnormalHsRel|NoHsRel|NoRrcConnReq|NoRrcConnSuc|PSAccFailRate|PSAccess|PSCCSR|PSDCHRetransRate|PSDrop|PSEulTputTot|PSHsTputTo
+t|PSIuSigSuc|PSNoRabEstAtt|PSRabSucc|PSRrcSucRate|PacketintHs_R|Packetint_A|Pint_M_IRATHO_LTE|PsAvgNoUsers|PsDCHFACHDropRate|PsDCHFACHRabSucc|PsIRATU2GCCSucc|RrcSuc|SHOSu
+ccess|Sp_A_Csfb|Sp_M_incIRATHO_S_CR|SpchAccFailRate|SpchAccess|SpchCCSR|SpchDrop|SpchIRATU2GHOSucc|SpchNoRabEstAtt|SpchRabSuc|SpchRrcSucRate|Speech_A|Speech_M_CSFB_AR|Spe
+ech_R" -m "ManagedElement=1" -p 7.2 -fmt txt   
+
+ 3) RNC Node Traffic Performance, ROP by ROP
+Report from 2019-05-30 06:45 UTC to 2019-05-30 07:44 UTC (4 ropfiles)
+Node SW: CXP9021776/6_R2KA07 (W16B.10)
+
+Date: 2019-05-30
+Object Counter                06:45   07:00   07:15   07:30
+       AvgSpeechErlang      6167.98 5934.84 5693.86 5470.78
+       CS57Drop                 N/A     N/A     N/A     N/A
+       CS57RabSuc               N/A     N/A     N/A     N/A
+       CS64Access             98.12   98.50   98.39   98.66
+       CS64CCSR               98.12   98.50   98.39   98.66
+       CS64Drop                   0       0       0       0
+       CS64NoRabEstAtt           31      46      27      56
+       CSIuSigSuc             99.69   99.60   99.49   99.58
+       CellFACHDrop            0.48    0.46    0.53    0.54
+       CsIRATG2UHOSucc        96.08   97.70   97.81   94.24
+       DCHMinperDrop           5.96    5.84    4.99    4.68
+       EULMinperDrop          23.94   23.79   23.69   23.38
+       EULRabSuc              98.51   97.93   98.21   98.24
+       EUL_NumRabEstAtt      124810  129556  129962  127100
+       FACHMinperDrop         17.10   17.67   15.60   15.50
+       HSMinperDrop            0.32    0.40    0.39    0.37
+       HsAccess               97.18   96.91   97.38   96.97
+       HsAvgNoUsers            0.07    0.09    0.08    0.08
+       HsDrop                  0.64    0.65    0.65    0.66
+       HsRetransmissionRate    0.77    0.79    0.77    0.77
+       HsTotNoUsers          117.44  152.92  145.34  137.68
+       HsTputAvg               0.75    0.74    0.74    0.74
+       HsTputGt100KbAvg        0.95    0.93    0.93    0.93
+       NoAbnormalHsRel         5449    5690    5592    5644
+       NoHsRel               108466  116028  118818  115132
+       NoRrcConnReq          529351  546179  527477  521631
+       NoRrcConnSuc          479102  488472  474263  469921
+       PSAccFailRate           3.27    3.55    3.02    3.48
+       PSAccess               96.64   96.34   96.89   96.44
+       PSCCSR                 94.28   93.99   94.43   93.95
+       PSDCHRetransRate        7.18    7.41    8.13    7.73
+       PSDrop                  2.44    2.44    2.54    2.58
+       PSEulTputTot           57.78   58.27   59.06   58.79
+       PSHsTputTot           545.82  542.87  539.71  542.74
+       PSIuSigSuc             99.99   99.98   99.99   99.98
+       PSNoRabEstAtt         142723  150309  151051  148063
+       PSRabSucc              98.02   98.05   98.14   98.11
+       PSRrcSucRate           98.68   98.36   98.82   98.38
+       PacketintHs_R            N/A     N/A     N/A     N/A
+       Packetint_A              N/A     N/A     N/A     N/A
+       Pint_M_IRATHO_LTE        N/A     N/A     N/A     N/A
+       PsAvgNoUsers            4.06    4.07    4.00    3.96
+       PsDCHFACHDropRate       0.50    0.48    0.55    0.56
+       PsDCHFACHRabSucc       93.54   94.03   94.62   94.40
+       PsIRATU2GCCSucc        79.03   80.95   82.03   81.02
+       RrcSuc                 90.51   89.43   89.91   90.09
+       SHOSuccess             98.35   98.34   98.58   98.30
+       Sp_A_Csfb              97.62   97.70   98.06   98.06
+       Sp_M_incIRATHO_S_CR      N/A     N/A     N/A     N/A
+       SpchAccFailRate         2.03    1.62    1.70    1.38
+       SpchAccess             97.86   98.27   98.19   98.51
+       SpchCCSR               96.94   97.54   97.32   97.40
+       SpchDrop                0.94    0.74    0.89    1.13
+       SpchIRATU2GHOSucc      93.94   93.37   93.60   94.15
+       SpchNoRabEstAtt        85270   82421   79570   76796
+       SpchRabSuc             99.73   99.76   99.80   99.85
+       SpchRrcSucRate         98.24   98.61   98.50   98.76
+       Speech_A                 N/A     N/A     N/A     N/A
+       Speech_M_CSFB_AR       58.80   57.86   57.32   57.87
+       Speech_R                0.94    0.74    0.89    1.13
+
